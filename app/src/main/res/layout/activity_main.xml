@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:rotation="-43"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/pic0" />
+        app:srcCompat="@drawable/pic1" />
 
     <TextView
         android:id="@+id/txv"
