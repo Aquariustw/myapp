@@ -44,13 +44,14 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener, Ges
     }
 
     var PictureNo: Int = 0  //目前顯示第幾張圖
-    var TotalPictures: Int = 3 //總共幾張圖片(假設僅顯示pu0-pu3)
+    var TotalPictures: Int = 4 //總共幾張圖片(假設僅顯示pu0-pu3)
 
     fun ShowPicture() {
 //        when (PictureNo) {
-//            0 -> img0.setImageResource(R.drawable.pic1)
-//            1 -> img0.setImageResource(R.drawable.pic2)
-//            2 -> img0.setImageResource(R.drawable.pic3)
+//            0 -> img0.setImageResource(R.drawable.pic4)
+//            1 -> img0.setImageResource(R.drawable.pic5)
+//            2 -> img0.setImageResource(R.drawable.pic6)
+//            3 -> img0.setImageResource(R.drawable.pic7)
 //
 //
 //        }
@@ -97,7 +98,7 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener, Ges
 
 
     override fun onDown(p0: MotionEvent?): Boolean {
-        txv.text = "按下"
+
         return true
     }
 

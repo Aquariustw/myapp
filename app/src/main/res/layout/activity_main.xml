@@ -5,25 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:rotation="90"
+    android:rotation="43"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/txv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="personal photo"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/img0"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:rotation="-43"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/pic1" />
+        app:srcCompat="@drawable/pic0" />
+
+    <TextView
+        android:id="@+id/txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_photo"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </LinearLayout>
